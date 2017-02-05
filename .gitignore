@@ -12,8 +12,9 @@
 hs_err_pid*
 
 # pastas do workspace 
-
 .metadata/
 .recommenders/
 RemoteSystemsTempFiles/
+.classpath
+.project 
 
