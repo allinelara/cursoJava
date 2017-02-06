@@ -23,19 +23,30 @@ public class Break {
 			rotulo1:{
 				rotulo2:{
 					rotulo3:{
-			if(i==2){
-				break rotulo1;
+						if(i==2){
+							break rotulo1;
+						}
+						if(i==2){
+							break rotulo2;
+						}
+						if(i==3){
+							break rotulo3;
+						}
+						System.out.println("rotulo3");
+					}
+					System.out.println("rotulo2");
+				}
+				System.out.println("rotulo1");
 			}
-			if(i==2){
-				break rotulo2;
+			System.out.println(i);
+		}
+		
+		for (int i=num; i<max; i++){
+			//imprimi somente número que n são multiplos de 7
+			if(i % 7 == 0){
+				continue;
 			}
-			if(i==3){
-				break rotulo3;
-			}
-			System.out.println("rotulo");
-		}
-		}
-		}
+			System.out.println("O valor de i é: " + i);
 		}
 	}
 

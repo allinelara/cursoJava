@@ -8,6 +8,7 @@ public class Arrays {
 		double tempDia003 = 33;
 		double tempDia004 = 22.3;
 		
+		// colocar os conhecetes depois do tipo do array, é uma boa pratica 
 		double[] temperatura = new double[365];
 		temperatura[0] = 33.9;
 		temperatura[1] = 39;
