@@ -1,4 +1,4 @@
-package PilhaLista;
+package PilhaListaFila;
 
 public class EstruturaEstatica<T> {
 
@@ -75,5 +75,15 @@ public class EstruturaEstatica<T> {
 	}
 	public boolean estaVazio(){
 		return this.tamanho == 0;
+	}
+	
+	public void remove(int posicao){
+		if(!(posicao>=0 && posicao <tamanho)){
+			throw new IllegalArgumentException("Posicão inválida");
+		}
+		for(int i =posicao; i<(this.tamanho-1); i++){
+			this.elementos[i] = this.elementos[i+1];
+		}
+		tamanho--;
 	}
 }

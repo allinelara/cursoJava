@@ -1,4 +1,4 @@
-package PilhaLista;
+package PilhaListaFila;
 
 import java.util.Stack;
 

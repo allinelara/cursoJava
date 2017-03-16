@@ -1,4 +1,4 @@
-package PilhaLista;
+package PilhaListaFila;
 
 public class Lista<T> extends EstruturaEstatica<T>{
 

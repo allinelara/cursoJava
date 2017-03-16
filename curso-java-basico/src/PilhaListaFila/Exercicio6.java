@@ -1,4 +1,4 @@
-package PilhaLista;
+package PilhaListaFila;
 
 public class Exercicio6 {
 
