@@ -4,7 +4,7 @@ public class Fornecedores {
 
 	private int codigo;
 	private String descricao;
-	
+
 	public int getCodigo() {
 		return codigo;
 	}
@@ -17,6 +17,10 @@ public class Fornecedores {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
-	
+	@Override
+	public String toString() {
+		return "Fornecedores [codigo=" + codigo + ", descricao=" + descricao + "]";
+	}
+
+
 }

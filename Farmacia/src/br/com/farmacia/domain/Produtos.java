@@ -6,8 +6,8 @@ public class Produtos {
 	private String descricao; 
 	private int quantidade; 
 	private Double preco; 
-	private Fornecedores fornecedores;
-	
+	private Fornecedores fornecedores = new Fornecedores();
+
 	public int getCodigo() {
 		return codigo;
 	}
@@ -38,5 +38,10 @@ public class Produtos {
 	public void setFornecedores(Fornecedores fornecedores) {
 		this.fornecedores = fornecedores;
 	}
-	
+	@Override
+	public String toString() {
+		return "Produtos [codigo=" + codigo + ", descricao=" + descricao + ", quantidade=" + quantidade + ", preco="
+				+ preco + ", fornecedores=" + fornecedores + "]";
+	}
+
 }
